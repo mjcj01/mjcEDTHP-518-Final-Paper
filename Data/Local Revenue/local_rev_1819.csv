@@ -1,0 +1,757 @@
+AUN,school_district,county,total_local_rev,real_estate_revenue
+112011103,Bermudian Springs SD,Adams,"$17,153,198.65","$11,645,873.53"
+112011603,Conewago Valley SD,Adams,"$38,262,170.72","$28,366,471.38"
+112013054,Fairfield Area SD,Adams,"$11,927,072.19","$8,482,424.70"
+112013753,Gettysburg Area SD,Adams,"$43,527,694.79","$29,764,521.97"
+112015203,Littlestown Area SD,Adams,"$20,135,624.04","$14,246,015.66"
+112018523,Upper Adams SD,Adams,"$16,575,039.68","$11,815,133.63"
+103020603,Allegheny Valley SD,Allegheny,"$17,341,785.00","$14,730,615.70"
+103020753,Avonworth SD,Allegheny,"$25,380,439.87","$20,772,331.05"
+103021102,Baldwin-Whitehall SD,Allegheny,"$45,003,828.86","$36,162,341.31"
+103021252,Bethel Park SD,Allegheny,"$63,965,369.68","$53,649,050.72"
+103021453,Brentwood Borough SD,Allegheny,"$13,034,080.89","$10,427,723.77"
+103021603,Carlynton SD,Allegheny,"$18,697,094.65","$15,042,362.92"
+103021752,Chartiers Valley SD,Allegheny,"$47,586,357.35","$37,609,019.54"
+103021903,Clairton City SD,Allegheny,"$3,825,241.65","$2,425,822.32"
+103022103,Cornell SD,Allegheny,"$9,557,068.00","$7,737,402.00"
+103022253,Deer Lakes SD,Allegheny,"$23,285,066.03","$18,352,572.97"
+103022503,Duquesne City SD,Allegheny,"$2,115,025.18","$1,214,334.45"
+103022803,East Allegheny SD,Allegheny,"$17,698,184.30","$12,246,936.50"
+103023153,Elizabeth Forward SD,Allegheny,"$23,184,066.28","$17,893,454.28"
+103023912,Fox Chapel Area SD,Allegheny,"$77,902,404.90","$63,926,687.44"
+103024102,Gateway SD,Allegheny,"$53,211,586.35","$43,633,261.08"
+103024603,Hampton Township SD,Allegheny,"$37,349,353.25","$30,570,960.79"
+103024753,Highlands SD,Allegheny,"$22,150,450.45","$16,223,045.90"
+103025002,Keystone Oaks SD,Allegheny,"$30,556,414.56","$24,548,342.46"
+103026002,McKeesport Area SD,Allegheny,"$18,119,922.00","$12,760,043.00"
+103026303,Montour SD,Allegheny,"$58,069,714.82","$46,701,558.29"
+103026343,Moon Area SD,Allegheny,"$59,462,170.77","$49,479,537.88"
+103026402,Mt Lebanon SD,Allegheny,"$76,694,142.60","$63,739,297.64"
+103026852,North Allegheny SD,Allegheny,"$126,954,830.15","$103,777,658.80"
+103026902,North Hills SD,Allegheny,"$60,669,778.30","$48,394,559.57"
+103026873,Northgate SD,Allegheny,"$14,146,872.24","$10,439,613.85"
+103027352,Penn Hills SD,Allegheny,"$49,522,419.70","$39,091,277.79"
+103021003,Pine-Richland SD,Allegheny,"$68,735,281.28","$55,355,633.33"
+102027451,Pittsburgh SD,Allegheny,"$344,955,926.09","$172,300,085.04"
+103027503,Plum Borough SD,Allegheny,"$36,509,180.61","$29,709,526.83"
+103027753,Quaker Valley SD,Allegheny,"$41,839,672.00","$33,471,602.00"
+103028203,Riverview SD,Allegheny,"$16,562,441.86","$13,558,139.68"
+103028302,Shaler Area SD,Allegheny,"$55,103,070.32","$45,488,140.35"
+103028653,South Allegheny SD,Allegheny,"$7,672,211.11","$4,968,711.16"
+103028703,South Fayette Township SD,Allegheny,"$42,886,404.36","$34,823,187.49"
+103028753,South Park SD,Allegheny,"$21,578,345.49","$17,601,265.02"
+103028833,Steel Valley SD,Allegheny,"$22,012,175.98","$14,396,796.60"
+103028853,Sto-Rox SD,Allegheny,"$8,723,816.29","$6,128,269.35"
+103029203,Upper Saint Clair SD,Allegheny,"$65,521,751.93","$55,326,222.51"
+103029403,West Allegheny SD,Allegheny,"$47,439,324.64","$37,667,941.91"
+103029553,West Jefferson Hills SD,Allegheny,"$37,600,749.87","$28,490,632.03"
+103029603,West Mifflin Area SD,Allegheny,"$33,982,897.64","$22,380,324.74"
+103029803,Wilkinsburg Borough SD,Allegheny,"$13,474,099.99","$9,104,692.24"
+103029902,Woodland Hills SD,Allegheny,"$56,648,273.71","$44,089,393.84"
+128030603,Apollo-Ridge SD,Armstrong,"$8,577,138.16","$6,034,137.31"
+128030852,Armstrong SD,Armstrong,"$38,508,348.55","$29,225,563.15"
+128033053,Freeport Area SD,Armstrong,"$17,824,760.56","$14,146,655.69"
+128034503,Leechburg Area SD,Armstrong,"$7,028,839.47","$5,278,323.31"
+127040503,Aliquippa SD,Beaver,"$7,102,898.34","$5,131,436.01"
+127040703,Ambridge Area SD,Beaver,"$26,897,477.99","$20,157,473.89"
+127041203,Beaver Area SD,Beaver,"$21,279,596.32","$16,513,306.53"
+127041503,Big Beaver Falls Area SD,Beaver,"$8,775,399.62","$5,895,635.74"
+127041603,Blackhawk SD,Beaver,"$20,440,207.31","$15,543,369.39"
+127042003,Central Valley SD,Beaver,"$20,045,918.52","$15,403,986.56"
+127042853,Freedom Area SD,Beaver,"$9,876,160.13","$7,394,270.99"
+127044103,Hopewell Area SD,Beaver,"$20,442,325.45","$15,700,020.80"
+127045303,Midland Borough SD,Beaver,"$1,145,690.81","$577,429.91"
+127045653,New Brighton Area SD,Beaver,"$7,648,303.90","$5,235,601.52"
+127045853,Riverside Beaver County SD,Beaver,"$10,813,236.97","$7,681,056.86"
+127046903,Rochester Area SD,Beaver,"$5,722,992.10","$4,134,792.86"
+127047404,South Side Area SD,Beaver,"$9,082,929.79","$7,153,427.43"
+127049303,Western Beaver County SD,Beaver,"$4,677,712.97","$3,386,752.44"
+108051003,Bedford Area SD,Bedford,"$14,208,776.30","$9,193,943.21"
+108051503,Chestnut Ridge SD,Bedford,"$6,875,284.84","$4,691,649.60"
+108053003,Everett Area SD,Bedford,"$8,966,795.09","$5,662,242.78"
+108056004,Northern Bedford County SD,Bedford,"$4,278,000.04","$2,851,716.70"
+108058003,Tussey Mountain SD,Bedford,"$4,941,651.11","$3,232,914.02"
+114060503,Antietam SD,Berks,"$11,264,805.02","$9,266,474.12"
+114060753,Boyertown Area SD,Berks,"$80,402,094.14","$66,381,713.53"
+114060853,Brandywine Heights Area SD,Berks,"$21,907,119.52","$18,356,631.00"
+114061103,Conrad Weiser Area SD,Berks,"$33,203,817.90","$27,018,074.57"
+114061503,Daniel Boone Area SD,Berks,"$38,189,380.12","$31,482,562.82"
+114062003,Exeter Township SD,Berks,"$51,903,166.03","$43,464,555.11"
+114062503,Fleetwood Area SD,Berks,"$31,200,573.28","$26,497,308.65"
+114063003,Governor Mifflin SD,Berks,"$51,464,597.53","$42,568,446.31"
+114063503,Hamburg Area SD,Berks,"$26,391,311.63","$21,594,191.56"
+114064003,Kutztown Area SD,Berks,"$23,179,303.70","$19,562,336.50"
+114065503,Muhlenberg SD,Berks,"$42,227,691.00","$34,848,130.00"
+114066503,Oley Valley SD,Berks,"$22,666,875.66","$18,939,176.39"
+114067002,Reading SD,Berks,"$47,972,175.81","$19,123,457.72"
+114067503,Schuylkill Valley SD,Berks,"$29,001,424.37","$23,944,243.23"
+114068003,Tulpehocken Area SD,Berks,"$21,367,640.71","$16,871,955.42"
+114068103,Twin Valley SD,Berks,"$47,155,684.05","$39,296,322.90"
+114069103,Wilson SD,Berks,"$80,078,983.99","$63,982,240.39"
+114069353,Wyomissing Area SD,Berks,"$28,894,648.92","$23,035,115.14"
+108070502,Altoona Area SD,Blair,"$31,682,212.13","$16,558,040.66"
+108071003,Bellwood-Antis SD,Blair,"$6,988,928.04","$4,941,129.56"
+108071504,Claysburg-Kimmel SD,Blair,"$3,517,973.41","$2,265,483.92"
+108073503,Hollidaysburg Area SD,Blair,"$26,998,214.39","$19,836,289.60"
+108077503,Spring Cove SD,Blair,"$12,622,614.81","$9,727,882.26"
+108078003,Tyrone Area SD,Blair,"$7,985,996.00","$5,271,127.65"
+108079004,Williamsburg Community SD,Blair,"$2,285,487.70","$1,526,871.47"
+117080503,Athens Area SD,Bradford,"$17,521,577.59","$12,159,051.08"
+117081003,Canton Area SD,Bradford,"$4,586,287.85","$3,036,477.76"
+117083004,Northeast Bradford SD,Bradford,"$4,876,349.03","$3,154,376.41"
+117086003,Sayre Area SD,Bradford,"$8,663,154.16","$6,009,756.52"
+117086503,Towanda Area SD,Bradford,"$12,015,896.91","$8,859,085.68"
+117086653,Troy Area SD,Bradford,"$9,272,612.51","$6,878,851.00"
+117089003,Wyalusing Area SD,Bradford,"$11,346,330.05","$8,314,189.17"
+122091002,Bensalem Township SD,Bucks,"$112,735,090.77","$96,983,023.48"
+122091303,Bristol Borough SD,Bucks,"$12,143,981.53","$10,682,307.93"
+122091352,Bristol Township SD,Bucks,"$94,495,217.50","$84,224,650.28"
+122092002,Centennial SD,Bucks,"$88,759,553.47","$72,755,494.92"
+122092102,Central Bucks SD,Bucks,"$264,271,028.74","$217,290,728.82"
+122092353,Council Rock SD,Bucks,"$184,133,751.37","$150,648,543.21"
+122097203,Morrisville Borough SD,Bucks,"$13,463,638.00","$11,842,024.00"
+122097502,Neshaminy SD,Bucks,"$135,294,615.02","$120,862,176.86"
+122097604,New Hope-Solebury SD,Bucks,"$35,338,413.54","$28,941,809.39"
+122098003,Palisades SD,Bucks,"$33,482,718.00","$28,088,279.00"
+122098103,Pennridge SD,Bucks,"$106,200,038.57","$81,650,325.62"
+122098202,Pennsbury SD,Bucks,"$155,614,739.55","$143,931,313.55"
+122098403,Quakertown Community SD,Bucks,"$81,522,911.70","$65,211,480.24"
+104101252,Butler Area SD,Butler,"$52,783,116.00","$40,750,763.00"
+104103603,Karns City Area SD,Butler,"$7,868,576.75","$5,447,173.77"
+104105003,Mars Area SD,Butler,"$35,311,675.84","$26,037,611.54"
+104105353,Moniteau SD,Butler,"$7,591,601.31","$5,065,354.35"
+104107903,Seneca Valley SD,Butler,"$96,230,792.20","$73,525,726.94"
+104107503,Slippery Rock Area SD,Butler,"$16,921,105.00","$12,929,311.00"
+104107803,South Butler County SD,Butler,"$20,333,929.61","$15,549,157.74"
+108110603,Blacklick Valley SD,Cambria,"$2,251,830.19","$1,185,223.19"
+108111203,Cambria Heights SD,Cambria,"$6,204,967.41","$4,302,474.95"
+108111303,Central Cambria SD,Cambria,"$11,027,593.18","$7,598,743.24"
+108111403,Conemaugh Valley SD,Cambria,"$3,237,682.60","$2,076,669.23"
+108112003,Ferndale Area SD,Cambria,"$2,688,721.73","$1,798,403.24"
+108112203,Forest Hills SD,Cambria,"$6,126,541.41","$3,819,007.11"
+108112502,Greater Johnstown SD,Cambria,"$12,421,253.88","$7,459,037.60"
+108114503,Northern Cambria SD,Cambria,"$3,938,689.06","$2,464,754.78"
+108116003,Penn Cambria SD,Cambria,"$7,577,167.17","$4,876,183.39"
+108116303,Portage Area SD,Cambria,"$2,861,136.10","$1,813,416.35"
+108116503,Richland SD,Cambria,"$14,900,157.19","$10,909,301.87"
+108118503,Westmont Hilltop SD,Cambria,"$13,695,728.27","$10,910,888.74"
+109122703,Cameron County SD,Cameron,"$4,196,916.46","$2,533,419.07"
+121135003,Jim Thorpe Area SD,Carbon,"$33,072,479.32","$27,299,014.73"
+121135503,Lehighton Area SD,Carbon,"$21,357,294.92","$16,494,379.24"
+121136503,Palmerton Area SD,Carbon,"$19,477,457.63","$15,753,974.03"
+121136603,Panther Valley SD,Carbon,"$11,396,674.46","$7,977,754.78"
+121139004,Weatherly Area SD,Carbon,"$7,331,951.04","$5,865,424.71"
+110141003,Bald Eagle Area SD,Centre,"$16,854,883.31","$9,649,588.14"
+110141103,Bellefonte Area SD,Centre,"$33,049,637.35","$23,694,234.58"
+110147003,Penns Valley Area SD,Centre,"$17,460,386.28","$12,613,786.35"
+110148002,State College Area SD,Centre,"$130,145,699.66","$101,044,309.94"
+124150503,Avon Grove SD,Chester,"$58,463,975.58","$53,522,076.17"
+124151902,Coatesville Area SD,Chester,"$116,048,002.10","$97,806,307.47"
+124152003,Downingtown Area SD,Chester,"$172,477,298.30","$139,238,919.37"
+124153503,Great Valley SD,Chester,"$88,403,479.65","$78,362,228.32"
+124154003,Kennett Consolidated SD,Chester,"$68,529,510.34","$58,419,762.24"
+124156503,Octorara Area SD,Chester,"$37,952,893.63","$33,129,180.75"
+124156603,Owen J Roberts SD,Chester,"$86,451,588.37","$71,931,385.51"
+124156703,Oxford Area SD,Chester,"$39,331,432.88","$33,022,199.69"
+124157203,Phoenixville Area SD,Chester,"$74,101,006.50","$58,971,352.08"
+124157802,Tredyffrin-Easttown SD,Chester,"$119,802,281.52","$109,970,863.78"
+124158503,Unionville-Chadds Ford SD,Chester,"$71,272,480.70","$66,459,141.80"
+124159002,West Chester Area SD,Chester,"$204,505,151.46","$169,592,595.06"
+106160303,Allegheny-Clarion Valley SD,Clarion,"$5,275,420.30","$2,918,054.39"
+106161203,Clarion Area SD,Clarion,"$8,744,085.98","$6,469,876.00"
+106161703,Clarion-Limestone Area SD,Clarion,"$5,472,399.94","$4,040,318.14"
+106166503,Keystone SD,Clarion,"$5,250,164.80","$3,314,874.03"
+106167504,North Clarion County SD,Clarion,"$3,229,173.66","$2,227,725.78"
+106168003,Redbank Valley SD,Clarion,"$3,885,342.86","$2,280,664.52"
+106169003,Union SD,Clarion,"$2,656,853.96","$1,451,579.52"
+110171003,Clearfield Area SD,Clearfield,"$16,643,267.53","$12,145,094.29"
+110171803,Curwensville Area SD,Clearfield,"$4,741,513.38","$3,315,810.54"
+106172003,Dubois Area SD,Clearfield,"$27,077,227.74","$19,845,436.54"
+110173003,Glendale SD,Clearfield,"$3,683,847.44","$2,500,832.03"
+110173504,Harmony Area SD,Clearfield,"$1,485,481.87","$879,214.91"
+110175003,Moshannon Valley SD,Clearfield,"$4,122,906.31","$2,581,726.43"
+110177003,Philipsburg-Osceola Area SD,Clearfield,"$11,541,129.64","$8,455,942.85"
+110179003,West Branch Area SD,Clearfield,"$5,690,983.76","$3,782,488.40"
+110183602,Keystone Central SD,Clinton,"$34,333,705.37","$22,561,741.01"
+116191004,Benton Area SD,Columbia,"$6,525,044.51","$4,466,436.17"
+116191103,Berwick Area SD,Columbia,"$19,545,235.82","$14,293,182.48"
+116191203,Bloomsburg Area SD,Columbia,"$15,290,673.27","$10,202,052.85"
+116191503,Central Columbia SD,Columbia,"$18,333,674.93","$12,249,879.09"
+116195004,Millville Area SD,Columbia,"$5,913,876.00","$3,701,019.00"
+116197503,Southern Columbia Area SD,Columbia,"$13,104,606.17","$8,309,705.70"
+105201033,Conneaut SD,Crawford,"$17,025,693.05","$12,749,471.67"
+105201352,Crawford Central SD,Crawford,"$27,778,406.53","$20,869,197.63"
+105204703,Penncrest SD,Crawford,"$18,742,373.03","$12,482,857.54"
+115210503,Big Spring SD,Cumberland,"$32,106,236.91","$23,436,204.43"
+115211003,Camp Hill SD,Cumberland,"$18,825,691.15","$12,714,667.11"
+115211103,Carlisle Area SD,Cumberland,"$58,098,120.37","$43,676,998.90"
+115211603,Cumberland Valley SD,Cumberland,"$105,860,996.00","$73,639,914.00"
+115212503,East Pennsboro Area SD,Cumberland,"$29,505,740.93","$20,617,457.94"
+115216503,Mechanicsburg Area SD,Cumberland,"$53,255,411.21","$36,386,585.13"
+115218003,Shippensburg Area SD,Cumberland,"$29,761,760.32","$21,772,955.07"
+115218303,South Middleton SD,Cumberland,"$26,279,879.85","$18,916,193.04"
+115221402,Central Dauphin SD,Dauphin,"$147,199,177.21","$91,689,667.68"
+115221753,Derry Township SD,Dauphin,"$49,497,992.52","$36,552,242.42"
+115222504,Halifax Area SD,Dauphin,"$9,829,889.28","$6,987,899.60"
+115222752,Harrisburg City SD,Dauphin,"$58,119,436.50","$37,761,941.89"
+115224003,Lower Dauphin SD,Dauphin,"$39,763,594.52","$29,139,246.78"
+115226003,Middletown Area SD,Dauphin,"$30,482,534.21","$20,289,281.81"
+115226103,Millersburg Area SD,Dauphin,"$8,218,382.23","$5,211,673.09"
+115228003,Steelton-Highspire SD,Dauphin,"$7,755,070.58","$4,824,028.00"
+115228303,Susquehanna Township SD,Dauphin,"$40,030,858.47","$29,571,581.73"
+115229003,Upper Dauphin Area SD,Dauphin,"$9,403,037.16","$6,250,139.53"
+125231232,Chester-Upland SD,Delaware,"$28,854,932.82","$21,489,203.79"
+125231303,Chichester SD,Delaware,"$50,185,185.64","$45,058,392.12"
+125234103,Garnet Valley SD,Delaware,"$88,976,653.00","$81,622,389.00"
+125234502,Haverford Township SD,Delaware,"$100,861,816.10","$94,920,144.79"
+125235103,Interboro SD,Delaware,"$43,179,368.56","$38,712,987.79"
+125235502,Marple Newtown SD,Delaware,"$72,285,737.96","$64,863,403.05"
+125236903,Penn-Delco SD,Delaware,"$43,530,521.00","$37,400,542.00"
+125237603,Radnor Township SD,Delaware,"$83,042,909.86","$75,064,160.36"
+125237702,Ridley SD,Delaware,"$73,784,070.55","$67,481,944.30"
+125237903,Rose Tree Media SD,Delaware,"$78,572,604.83","$71,188,047.57"
+125238402,Southeast Delco SD,Delaware,"$41,331,401.09","$35,802,142.94"
+125238502,Springfield SD,Delaware,"$62,157,536.29","$57,170,464.83"
+125239452,Upper Darby SD,Delaware,"$111,456,485.96","$96,179,095.33"
+125239603,Wallingford-Swarthmore SD,Delaware,"$63,608,245.06","$59,853,884.00"
+125239652,William Penn SD,Delaware,"$51,043,024.00","$44,199,013.00"
+109243503,Johnsonburg Area SD,Elk,"$3,014,161.56","$1,706,237.36"
+109246003,Ridgway Area SD,Elk,"$5,284,005.57","$3,118,822.96"
+109248003,Saint Marys Area SD,Elk,"$15,640,806.78","$10,039,612.27"
+105251453,Corry Area SD,Erie,"$9,287,174.76","$6,310,564.81"
+105252602,Erie City SD,Erie,"$62,995,576.00","$40,727,918.00"
+105253303,Fairview SD,Erie,"$19,130,133.00","$15,929,121.00"
+105253553,Fort LeBoeuf SD,Erie,"$19,731,938.07","$15,255,911.34"
+105253903,General McLane SD,Erie,"$15,040,060.32","$11,185,024.41"
+105254053,Girard SD,Erie,"$10,654,457.72","$8,048,011.08"
+105254353,Harbor Creek SD,Erie,"$18,966,306.75","$15,153,741.91"
+105256553,Iroquois SD,Erie,"$6,832,328.18","$4,944,279.28"
+105257602,Millcreek Township SD,Erie,"$68,377,085.39","$51,951,832.48"
+105258303,North East SD,Erie,"$10,144,948.36","$7,716,499.27"
+105258503,Northwestern SD,Erie,"$6,492,987.25","$3,967,922.87"
+105259103,Union City Area SD,Erie,"$4,121,707.48","$2,458,557.59"
+105259703,Wattsburg Area SD,Erie,"$12,818,271.00","$10,198,106.00"
+101260303,Albert Gallatin Area SD,Fayette,"$14,220,386.10","$8,301,342.09"
+101260803,Brownsville Area SD,Fayette,"$8,014,472.35","$4,742,123.78"
+101261302,Connellsville Area SD,Fayette,"$20,388,568.53","$13,410,134.24"
+101262903,Frazier SD,Fayette,"$6,819,292.09","$4,791,907.58"
+101264003,Laurel Highlands SD,Fayette,"$22,815,865.63","$16,571,290.83"
+101268003,Uniontown Area SD,Fayette,"$17,739,118.52","$11,780,588.26"
+106272003,Forest Area SD,Forest,"$7,450,991.55","$5,384,446.98"
+112281302,Chambersburg Area SD,Franklin,"$90,379,657.00","$64,561,908.00"
+112282004,Fannett-Metal SD,Franklin,"$3,616,628.82","$2,672,195.80"
+112283003,Greencastle-Antrim SD,Franklin,"$26,112,040.25","$21,396,187.63"
+112286003,Tuscarora SD,Franklin,"$22,189,619.00","$18,085,627.00"
+112289003,Waynesboro Area SD,Franklin,"$32,357,343.38","$23,057,826.71"
+111291304,Central Fulton SD,Fulton,"$6,163,338.90","$4,677,225.94"
+111292304,Forbes Road SD,Fulton,"$2,774,415.07","$2,009,454.62"
+111297504,Southern Fulton SD,Fulton,"$4,787,092.56","$3,525,346.34"
+101301303,Carmichaels Area SD,Greene,"$5,382,642.59","$3,598,760.08"
+101301403,Central Greene SD,Greene,"$17,492,566.22","$14,071,025.26"
+101303503,Jefferson-Morgan SD,Greene,"$5,425,591.40","$3,682,552.57"
+101306503,Southeastern Greene SD,Greene,"$3,364,660.55","$2,164,236.11"
+101308503,West Greene SD,Greene,"$12,659,244.00","$10,120,794.63"
+111312503,Huntingdon Area SD,Huntingdon,"$13,177,625.03","$8,373,623.67"
+111312804,Juniata Valley SD,Huntingdon,"$4,471,355.66","$2,586,989.70"
+111316003,Mount Union Area SD,Huntingdon,"$5,997,497.93","$3,811,248.02"
+111317503,Southern Huntingdon County SD,Huntingdon,"$5,692,249.15","$3,655,683.51"
+128321103,Blairsville-Saltsburg SD,Indiana,"$13,671,955.12","$9,456,636.17"
+128323303,Homer-Center SD,Indiana,"$6,885,376.88","$5,074,381.95"
+128323703,Indiana Area SD,Indiana,"$35,106,778.11","$27,556,023.78"
+128325203,Marion Center Area SD,Indiana,"$7,891,923.57","$5,456,657.56"
+128326303,Penns Manor Area SD,Indiana,"$5,097,240.89","$3,335,548.03"
+128327303,Purchase Line SD,Indiana,"$3,796,292.43","$2,116,714.00"
+128328003,United SD,Indiana,"$6,353,245.00","$4,072,064.08"
+106330703,Brockway Area SD,Jefferson,"$4,334,119.12","$2,659,895.79"
+106330803,Brookville Area SD,Jefferson,"$9,283,299.22","$6,589,280.82"
+106338003,Punxsutawney Area SD,Jefferson,"$12,061,787.77","$7,631,351.05"
+111343603,Juniata County SD,Juniata,"$17,975,013.51","$13,664,274.60"
+119350303,Abington Heights SD,Lackawanna,"$33,198,347.03","$26,161,537.51"
+119351303,Carbondale Area SD,Lackawanna,"$8,490,423.81","$5,526,403.48"
+119352203,Dunmore SD,Lackawanna,"$12,774,889.75","$9,723,152.44"
+119354603,Lakeland SD,Lackawanna,"$12,121,906.27","$9,158,282.15"
+119355503,Mid Valley SD,Lackawanna,"$18,737,169.27","$14,703,968.37"
+119356503,North Pocono SD,Lackawanna,"$34,312,046.25","$27,678,095.16"
+119356603,Old Forge SD,Lackawanna,"$7,632,464.79","$5,665,842.50"
+119357003,Riverside SD,Lackawanna,"$15,891,680.62","$12,939,288.50"
+119357402,Scranton SD,Lackawanna,"$67,559,286.66","$40,266,383.99"
+119358403,Valley View SD,Lackawanna,"$17,321,609.00","$12,809,160.00"
+113361303,Cocalico SD,Lancaster,"$40,678,029.86","$33,228,990.32"
+113361503,Columbia Borough SD,Lancaster,"$12,260,159.90","$9,594,239.57"
+113361703,Conestoga Valley SD,Lancaster,"$54,045,675.31","$44,381,362.83"
+113362203,Donegal SD,Lancaster,"$33,840,325.97","$27,867,235.19"
+113362303,Eastern Lancaster County SD,Lancaster,"$42,744,051.32","$32,372,290.62"
+113362403,Elizabethtown Area SD,Lancaster,"$43,814,191.89","$34,056,033.84"
+113362603,Ephrata Area SD,Lancaster,"$47,938,941.45","$39,382,114.55"
+113363103,Hempfield SD,Lancaster,"$88,583,443.00","$73,277,537.24"
+113363603,Lampeter-Strasburg SD,Lancaster,"$40,426,079.63","$34,525,308.56"
+113364002,Lancaster SD,Lancaster,"$91,653,842.00","$68,270,428.00"
+113364403,Manheim Central SD,Lancaster,"$38,608,533.01","$31,574,694.25"
+113364503,Manheim Township SD,Lancaster,"$77,293,770.41","$62,512,369.69"
+113365203,Penn Manor SD,Lancaster,"$61,352,989.26","$48,295,459.91"
+113365303,Pequea Valley SD,Lancaster,"$28,409,142.86","$23,652,635.21"
+113367003,Solanco SD,Lancaster,"$34,825,004.41","$24,094,316.96"
+113369003,Warwick SD,Lancaster,"$53,499,814.19","$42,646,058.39"
+104372003,Ellwood City Area SD,Lawrence,"$9,723,473.86","$6,782,574.54"
+104374003,Laurel SD,Lawrence,"$6,335,460.65","$4,259,214.45"
+104375003,Mohawk Area SD,Lawrence,"$7,728,953.96","$5,318,279.00"
+104375203,Neshannock Township SD,Lawrence,"$13,348,444.29","$10,371,412.99"
+104375302,New Castle Area SD,Lawrence,"$11,607,913.66","$6,763,718.92"
+104376203,Shenango Area SD,Lawrence,"$6,445,170.46","$4,585,709.69"
+104377003,Union Area SD,Lawrence,"$4,524,195.00","$3,066,358.00"
+104378003,Wilmington Area SD,Lawrence,"$9,496,107.38","$6,936,883.17"
+113380303,Annville-Cleona SD,Lebanon,"$15,596,055.33","$11,705,919.45"
+113381303,Cornwall-Lebanon SD,Lebanon,"$53,464,212.93","$44,551,608.95"
+113382303,Eastern Lebanon County SD,Lebanon,"$29,647,527.72","$25,035,357.97"
+113384603,Lebanon SD,Lebanon,"$22,683,677.27","$16,097,577.30"
+113385003,Northern Lebanon SD,Lebanon,"$23,262,612.20","$17,902,077.51"
+113385303,Palmyra Area SD,Lebanon,"$36,634,419.57","$29,851,406.76"
+121390302,Allentown City SD,Lehigh,"$107,841,292.00","$84,189,412.00"
+121391303,Catasauqua Area SD,Lehigh,"$21,181,520.55","$17,752,430.52"
+121392303,East Penn SD,Lehigh,"$112,773,106.10","$95,294,022.86"
+121394503,Northern Lehigh SD,Lehigh,"$18,722,410.62","$15,129,281.65"
+121394603,Northwestern Lehigh SD,Lehigh,"$30,080,143.28","$24,105,755.07"
+121395103,Parkland SD,Lehigh,"$143,753,595.00","$120,037,542.00"
+121395603,Salisbury Township SD,Lehigh,"$28,278,537.74","$23,487,084.22"
+121395703,Southern Lehigh SD,Lehigh,"$50,209,163.55","$41,759,054.87"
+121397803,Whitehall-Coplay SD,Lehigh,"$48,326,002.50","$39,596,386.35"
+118401403,Crestwood SD,Luzerne,"$23,264,486.66","$17,789,426.99"
+118401603,Dallas SD,Luzerne,"$26,161,552.88","$20,961,614.68"
+118402603,Greater Nanticoke Area SD,Luzerne,"$9,819,445.69","$6,357,804.50"
+118403003,Hanover Area SD,Luzerne,"$15,707,715.23","$12,048,010.19"
+118403302,Hazleton Area SD,Luzerne,"$64,319,744.99","$42,266,220.42"
+118403903,Lake-Lehman SD,Luzerne,"$17,146,202.12","$13,639,659.98"
+118406003,Northwest Area SD,Luzerne,"$7,293,264.00","$4,920,512.00"
+118406602,Pittston Area SD,Luzerne,"$30,070,596.04","$23,787,896.32"
+118408852,Wilkes-Barre Area SD,Luzerne,"$70,144,013.62","$51,376,736.30"
+118409203,Wyoming Area SD,Luzerne,"$19,317,404.60","$14,795,715.75"
+118409302,Wyoming Valley West SD,Luzerne,"$37,674,272.12","$27,606,168.70"
+117412003,East Lycoming SD,Lycoming,"$11,192,435.18","$6,557,783.10"
+117414003,Jersey Shore Area SD,Lycoming,"$18,377,336.69","$12,273,620.02"
+117414203,Loyalsock Township SD,Lycoming,"$16,208,629.32","$10,390,826.30"
+117415004,Montgomery Area SD,Lycoming,"$6,884,292.13","$4,255,649.37"
+117415103,Montoursville Area SD,Lycoming,"$16,861,833.74","$11,530,841.66"
+117415303,Muncy SD,Lycoming,"$10,693,134.51","$7,542,438.30"
+117416103,South Williamsport Area SD,Lycoming,"$8,241,545.16","$5,221,484.77"
+117417202,Williamsport Area SD,Lycoming,"$36,650,669.86","$21,499,864.00"
+109420803,Bradford Area SD,McKean,"$12,975,507.50","$9,020,407.27"
+109422303,Kane Area SD,McKean,"$5,046,836.26","$2,875,911.01"
+109426003,Otto-Eldred SD,McKean,"$2,050,166.74","$1,325,427.01"
+109426303,Port Allegany SD,McKean,"$3,569,613.44","$2,190,438.98"
+109427503,Smethport Area SD,McKean,"$4,974,960.90","$2,955,932.25"
+104431304,Commodore Perry SD,Mercer,"$2,549,637.44","$1,744,559.18"
+104432503,Farrell Area SD,Mercer,"$4,563,577.00","$2,942,842.00"
+104432803,Greenville Area SD,Mercer,"$7,847,270.93","$5,234,867.25"
+104432903,Grove City Area SD,Mercer,"$22,504,128.20","$10,827,293.59"
+104433303,Hermitage SD,Mercer,"$19,370,582.97","$15,544,892.71"
+104433604,Jamestown Area SD,Mercer,"$3,675,571.33","$2,664,955.64"
+104433903,Lakeview SD,Mercer,"$5,458,620.32","$3,671,881.61"
+104435003,Mercer Area SD,Mercer,"$7,865,072.87","$5,357,644.06"
+104435303,Reynolds SD,Mercer,"$6,848,277.20","$4,719,217.89"
+104435603,Sharon City SD,Mercer,"$10,313,734.02","$6,396,513.73"
+104435703,Sharpsville Area SD,Mercer,"$6,675,019.27","$4,555,656.78"
+104437503,West Middlesex Area SD,Mercer,"$5,794,121.44","$4,245,159.01"
+111444602,Mifflin County SD,Mifflin,"$34,497,353.42","$23,412,141.57"
+120452003,East Stroudsburg Area SD,Monroe,"$106,421,202.30","$87,012,286.87"
+120455203,Pleasant Valley SD,Monroe,"$52,669,593.91","$43,251,945.77"
+120455403,Pocono Mountain SD,Monroe,"$143,025,311.08","$120,739,793.79"
+120456003,Stroudsburg Area SD,Monroe,"$73,512,348.53","$62,784,146.49"
+123460302,Abington SD,Montgomery,"$118,712,284.61","$105,214,446.36"
+123460504,Bryn Athyn SD,Montgomery,"$200,082.00",
+123461302,Cheltenham SD,Montgomery,"$91,745,009.00","$80,948,834.00"
+123461602,Colonial SD,Montgomery,"$105,942,257.00","$84,961,834.00"
+123463603,Hatboro-Horsham SD,Montgomery,"$82,943,235.11","$70,940,141.27"
+123463803,Jenkintown SD,Montgomery,"$12,926,366.00","$10,948,100.00"
+123464502,Lower Merion SD,Montgomery,"$233,469,024.73","$218,436,469.50"
+123464603,Lower Moreland Township SD,Montgomery,"$40,570,926.39","$35,696,882.00"
+123465303,Methacton SD,Montgomery,"$86,135,658.19","$72,753,185.84"
+123465602,Norristown Area SD,Montgomery,"$113,439,207.36","$94,993,040.20"
+123465702,North Penn SD,Montgomery,"$204,615,940.01","$174,533,428.53"
+123466103,Perkiomen Valley SD,Montgomery,"$85,252,200.50","$66,729,257.34"
+123466303,Pottsgrove SD,Montgomery,"$44,888,980.00","$37,480,824.00"
+123466403,Pottstown SD,Montgomery,"$34,987,934.16","$28,188,038.38"
+123467103,Souderton Area SD,Montgomery,"$97,332,911.16","$80,298,573.62"
+123467203,Springfield Township SD,Montgomery,"$45,690,855.88","$39,793,729.31"
+123467303,Spring-Ford Area SD,Montgomery,"$124,372,242.39","$101,359,075.60"
+123468303,Upper Dublin SD,Montgomery,"$82,975,371.28","$71,861,861.53"
+123468402,Upper Merion Area SD,Montgomery,"$90,860,287.77","$78,600,027.33"
+123468503,Upper Moreland Township SD,Montgomery,"$50,455,489.27","$43,886,949.80"
+123468603,Upper Perkiomen SD,Montgomery,"$41,551,959.15","$34,741,163.19"
+123469303,Wissahickon SD,Montgomery,"$82,503,701.75","$67,844,533.16"
+116471803,Danville Area SD,Montour,"$23,694,795.59","$13,321,601.97"
+120480803,Bangor Area SD,Northampton,"$34,900,302.55","$27,951,622.02"
+120481002,Bethlehem Area SD,Northampton,"$202,599,266.53","$162,208,176.65"
+120483302,Easton Area SD,Northampton,"$112,805,824.62","$97,514,815.34"
+120484803,Nazareth Area SD,Northampton,"$66,967,974.72","$54,639,681.15"
+120484903,Northampton Area SD,Northampton,"$72,220,850.46","$57,400,400.72"
+120485603,Pen Argyl Area SD,Northampton,"$20,238,383.54","$15,801,523.56"
+120486003,Saucon Valley SD,Northampton,"$35,965,803.76","$29,914,256.77"
+120488603,Wilson Area SD,Northampton,"$27,291,648.56","$22,779,237.77"
+116493503,Line Mountain SD,Northumberland,"$8,415,764.58","$5,388,304.12"
+116495003,Milton Area SD,Northumberland,"$16,652,039.60","$10,752,634.69"
+116495103,Mount Carmel Area SD,Northumberland,"$5,293,786.94","$2,838,983.30"
+116496503,Shamokin Area SD,Northumberland,"$6,931,995.52","$2,938,842.73"
+116496603,Shikellamy SD,Northumberland,"$22,186,413.01","$15,154,067.66"
+116498003,Warrior Run SD,Northumberland,"$12,905,562.31","$7,707,560.24"
+115503004,Greenwood SD,Perry,"$7,219,416.78","$4,931,854.06"
+115504003,Newport SD,Perry,"$8,632,075.60","$5,745,949.08"
+115506003,Susquenita SD,Perry,"$16,601,230.77","$10,306,238.88"
+115508003,West Perry SD,Perry,"$21,483,328.04","$14,137,289.30"
+126515001,Philadelphia City SD,Philadelphia,"$1,580,757,868.15","$800,298,689.00"
+120522003,Delaware Valley SD,Pike,"$48,070,014.67","$42,838,168.35"
+119648303,Wallenpaupack Area SD,Pike,"$55,943,100.67","$49,595,457.26"
+109530304,Austin Area SD,Potter,"$1,891,315.07","$1,262,921.57"
+109531304,Coudersport Area SD,Potter,"$5,784,107.32","$4,135,848.42"
+109532804,Galeton Area SD,Potter,"$3,624,294.00","$2,659,721.00"
+109535504,Northern Potter SD,Potter,"$3,615,967.87","$2,496,380.43"
+109537504,Oswayo Valley SD,Potter,"$2,705,224.70","$1,724,336.32"
+129540803,Blue Mountain SD,Schuylkill,"$25,252,883.39","$17,962,090.17"
+129544503,Mahanoy Area SD,Schuylkill,"$5,655,074.54","$3,625,443.42"
+129544703,Minersville Area SD,Schuylkill,"$8,534,526.54","$5,723,088.88"
+129545003,North Schuylkill SD,Schuylkill,"$12,864,793.16","$8,011,056.86"
+129546003,Pine Grove Area SD,Schuylkill,"$11,928,580.69","$8,382,749.38"
+129546103,Pottsville Area SD,Schuylkill,"$17,901,681.05","$10,087,230.45"
+129546803,Saint Clair Area SD,Schuylkill,"$5,615,087.31","$3,572,188.57"
+129547303,Schuylkill Haven Area SD,Schuylkill,"$9,119,071.67","$5,831,050.19"
+129547203,Shenandoah Valley SD,Schuylkill,"$5,063,233.20","$3,342,635.87"
+129547603,Tamaqua Area SD,Schuylkill,"$16,670,087.86","$11,527,557.19"
+129547803,Tri-Valley SD,Schuylkill,"$6,020,716.53","$3,950,799.69"
+129548803,Williams Valley SD,Schuylkill,"$4,494,791.37","$2,384,356.47"
+116555003,Midd-West SD,Snyder,"$18,718,810.00","$11,093,570.47"
+116557103,Selinsgrove Area SD,Snyder,"$26,155,812.21","$16,323,563.52"
+108561003,Berlin Brothersvalley SD,Somerset,"$3,787,350.56","$2,595,175.78"
+108561803,Conemaugh Township Area SD,Somerset,"$4,308,292.72","$2,674,830.19"
+108565203,Meyersdale Area SD,Somerset,"$3,219,279.56","$2,012,944.98"
+108565503,North Star SD,Somerset,"$5,924,364.71","$3,879,040.01"
+108566303,Rockwood Area SD,Somerset,"$5,861,192.92","$4,625,921.67"
+108567004,Salisbury-Elk Lick SD,Somerset,"$1,330,664.70","$834,079.07"
+108567204,Shade-Central City SD,Somerset,"$2,595,522.39","$1,713,731.67"
+108567404,Shanksville-Stonycreek SD,Somerset,"$4,082,920.15","$3,273,280.86"
+108567703,Somerset Area SD,Somerset,"$22,229,991.05","$17,117,344.49"
+108568404,Turkeyfoot Valley Area SD,Somerset,"$1,776,175.33","$1,253,709.79"
+108569103,Windber Area SD,Somerset,"$4,924,177.43","$2,830,358.55"
+117576303,Sullivan County SD,Sullivan,"$9,427,637.55","$7,986,890.48"
+119581003,Blue Ridge SD,Susquehanna,"$6,990,057.79","$5,682,855.54"
+119582503,Elk Lake SD,Susquehanna,"$8,968,992.93","$6,353,214.86"
+119583003,Forest City Regional SD,Susquehanna,"$7,184,395.02","$5,671,906.62"
+119584503,Montrose Area SD,Susquehanna,"$12,310,405.16","$10,004,203.54"
+119584603,Mountain View SD,Susquehanna,"$9,714,790.23","$7,232,387.37"
+119586503,Susquehanna Community SD,Susquehanna,"$4,572,684.94","$3,612,691.69"
+117596003,Northern Tioga SD,Tioga,"$12,422,404.31","$8,011,288.54"
+117597003,Southern Tioga SD,Tioga,"$15,860,136.77","$10,575,848.12"
+117598503,Wellsboro Area SD,Tioga,"$14,706,765.60","$10,423,196.00"
+116604003,Lewisburg Area SD,Union,"$26,049,396.00","$17,151,164.95"
+116605003,Mifflinburg Area SD,Union,"$17,011,811.29","$10,281,239.79"
+106611303,Cranberry Area SD,Venango,"$7,708,225.74","$5,528,667.84"
+106612203,Franklin Area SD,Venango,"$12,753,016.95","$8,798,719.28"
+106616203,Oil City Area SD,Venango,"$6,951,596.90","$4,595,997.97"
+106617203,Titusville Area SD,Venango,"$9,246,071.70","$6,177,542.96"
+106618603,Valley Grove SD,Venango,"$3,641,995.34","$2,267,496.76"
+105628302,Warren County SD,Warren,"$28,874,208.61","$20,830,815.19"
+101630504,Avella Area SD,Washington,"$3,486,418.46","$2,460,673.82"
+101630903,Bentworth SD,Washington,"$7,749,738.01","$5,044,119.86"
+101631003,Bethlehem-Center SD,Washington,"$5,316,961.73","$3,256,103.38"
+101631203,Burgettstown Area SD,Washington,"$9,105,050.86","$6,514,091.36"
+101631503,California Area SD,Washington,"$5,407,818.45","$3,609,772.93"
+101631703,Canon-McMillan SD,Washington,"$62,568,695.74","$48,939,833.54"
+101631803,Charleroi SD,Washington,"$10,289,382.93","$7,106,960.16"
+101631903,Chartiers-Houston SD,Washington,"$11,435,848.26","$9,067,957.35"
+101632403,Fort Cherry SD,Washington,"$8,108,225.73","$5,944,792.50"
+101633903,McGuffey SD,Washington,"$13,827,657.64","$10,765,509.45"
+101636503,Peters Township SD,Washington,"$50,337,778.33","$40,614,891.01"
+101637002,Ringgold SD,Washington,"$22,763,526.90","$17,016,280.70"
+101638003,Trinity Area SD,Washington,"$36,302,509.15","$27,372,509.84"
+101638803,Washington SD,Washington,"$11,677,966.65","$7,977,942.21"
+119648703,Wayne Highlands SD,Wayne,"$36,733,797.56","$31,319,865.13"
+119648903,Western Wayne SD,Wayne,"$28,081,708.39","$24,108,078.78"
+107650603,Belle Vernon Area SD,Westmoreland,"$20,286,773.33","$14,628,311.11"
+107650703,Burrell SD,Westmoreland,"$17,512,661.90","$13,992,799.92"
+107651603,Derry Area SD,Westmoreland,"$14,972,130.03","$10,847,677.04"
+107652603,Franklin Regional SD,Westmoreland,"$41,421,454.68","$32,999,392.42"
+107653102,Greater Latrobe SD,Westmoreland,"$35,504,747.79","$27,653,081.00"
+107653203,Greensburg Salem SD,Westmoreland,"$26,027,639.16","$19,528,095.04"
+107653802,Hempfield Area SD,Westmoreland,"$61,492,496.00","$49,318,049.00"
+107654103,Jeannette City SD,Westmoreland,"$6,195,219.17","$3,927,392.36"
+107654403,Kiski Area SD,Westmoreland,"$27,285,164.56","$20,383,482.05"
+107654903,Ligonier Valley SD,Westmoreland,"$18,623,725.52","$14,171,916.30"
+107655803,Monessen City SD,Westmoreland,"$5,779,090.84","$3,386,581.87"
+107655903,Mount Pleasant Area SD,Westmoreland,"$17,475,878.80","$12,974,267.19"
+107656303,New Kensington-Arnold SD,Westmoreland,"$12,124,189.61","$8,511,246.77"
+107656502,Norwin SD,Westmoreland,"$41,321,189.30","$31,603,171.31"
+107657103,Penn-Trafford SD,Westmoreland,"$31,486,341.25","$24,497,308.08"
+107657503,Southmoreland SD,Westmoreland,"$11,968,726.20","$8,813,678.76"
+107658903,Yough SD,Westmoreland,"$14,812,124.67","$10,521,483.27"
+119665003,Lackawanna Trail SD,Wyoming,"$10,784,478.00","$8,284,089.00"
+118667503,Tunkhannock Area SD,Wyoming,"$25,250,136.95","$20,475,306.09"
+112671303,Central York SD,York,"$66,726,521.60","$54,512,669.68"
+112671603,Dallastown Area SD,York,"$79,291,175.12","$66,447,178.51"
+112671803,Dover Area SD,York,"$38,286,947.60","$28,363,608.58"
+112672203,Eastern York SD,York,"$30,575,687.75","$25,336,208.88"
+112672803,Hanover Public SD,York,"$24,741,989.00","$20,769,097.00"
+112674403,Northeastern York SD,York,"$45,747,488.00","$38,402,292.29"
+115674603,Northern York County SD,York,"$31,392,140.64","$23,415,598.15"
+112675503,Red Lion Area SD,York,"$55,675,723.00","$44,078,021.00"
+112676203,South Eastern SD,York,"$35,377,042.78","$28,905,985.68"
+112676403,South Western SD,York,"$46,914,236.76","$38,829,145.52"
+112676503,Southern York County SD,York,"$38,500,683.83","$30,032,130.96"
+112676703,Spring Grove Area SD,York,"$45,393,632.11","$37,571,397.68"
+115219002,West Shore SD,York,"$87,236,653.47","$61,753,112.60"
+112678503,West York Area SD,York,"$42,249,445.00","$35,487,460.00"
+112679002,York City SD,York,"$38,374,350.31","$28,383,725.23"
+112679403,York Suburban SD,York,"$47,502,266.22","$39,751,526.58"
+103020407,A W Beattie Career Center,Allegheny,"$8,350,903.95",
+103023807,Forbes Road CTC,Allegheny,"$4,539,065.39",
+103027307,Parkway West CTC,Allegheny,"$5,954,143.00",
+103028807,Steel Center for Career and Technical Education,Allegheny,"$4,372,302.00",
+128034607,Lenape Tech,Armstrong,"$7,292,456.83",
+127041307,Beaver County CTC,Beaver,"$4,337,554.35",
+108051307,Bedford County Technical Center,Bedford,"$1,267,540.86",
+114060557,Berks CTC,Berks,"$14,225,149.71",
+114067107,Reading Muhlenberg CTC,Berks,"$6,722,006.12",
+108070607,Greater Altoona CTC,Blair,"$6,843,061.08",
+117080607,Northern Tier Career Center,Bradford,"$3,392,706.00",
+122091457,Bucks County Technical High School,Bucks,"$21,658,276.00",
+122097007,Middle Bucks Institute of Technology,Bucks,"$9,607,231.38",
+122099007,Upper Bucks County Technical School,Bucks,"$7,462,422.13",
+104101307,Butler County AVTS,Butler,"$3,456,295.00",
+108110307,Admiral Peary AVTS,Cambria,"$2,581,635.77",
+108112607,Greater Johnstown CTC,Cambria,"$4,691,009.95",
+121131507,Carbon Career & Technical Institute,Carbon,"$6,628,675.00",
+110141607,Central PA Institute of Science & Technology,Centre,"$6,272,341.20",
+124151607,Chester County Technical College HS,Chester,"$27,621,219.00",
+106161357,Clarion County Career Center,Clarion,"$1,895,778.42",
+110171607,Clearfield County CTC,Clearfield,"$4,543,663.58",
+116191757,Columbia-Montour AVTS,Columbia,"$7,253,333.00",
+105201407,Crawford County CTC,Crawford,"$4,543,620.38",
+115211657,Cumberland Perry AVTS,Cumberland,"$6,430,412.82",
+115221607,Dauphin County Technical School,Dauphin,"$17,258,215.45",
+125232407,Delaware County Technical High School,Delaware,"$13,053,265.00",
+105252807,Erie County Technical School,Erie,"$5,541,927.82",
+101266007,Connellsville Area Career & Technical Center,Fayette,"$2,765,849.70",
+101262507,Fayette County Career & Technical Institute,Fayette,"$4,672,135.69",
+112282307,Franklin County CTC,Franklin,"$6,600,595.81",
+111292507,Fulton County AVTS,Fulton,"$679,367.00",
+101302607,Greene County CTC,Greene,"$2,558,931.93",
+111312607,Huntingdon County CTC,Huntingdon,"$1,870,977.22",
+128324207,Indiana County Technology Center,Indiana,"$4,728,620.51",
+106333407,Jefferson County-DuBois AVTS,Jefferson,"$6,364,209.53",
+119354207,CTC of Lackawanna County,Lackawanna,"$4,817,842.00",
+113363807,Lancaster County CTC,Lancaster,"$19,288,091.20",
+104374207,Lawrence County CTC,Lawrence,"$5,161,927.98",
+113384307,Lebanon County CTC,Lebanon,"$5,597,997.93",
+121393007,Lehigh Career & Technical Institute,Lehigh,"$24,338,786.47",
+118408707,West Side CTC,Luzerne,"$5,640,893.59",
+118408607,Wilkes-Barre Area CTC,Luzerne,"$7,690,957.01",
+117414807,Lycoming CTC,Lycoming,"$1,338,078.77",
+109420107,Seneca Highlands Career and Technical Center,McKean,"$1,632,533.58",
+104435107,Mercer County Career Center,Mercer,"$4,621,938.83",
+111444307,Mifflin County Academy of Science and Technology,Mifflin,"$3,079,870.00",
+120454507,Monroe Career & Tech Inst,Monroe,"$8,355,903.83",
+123460957,Central Montco Technical High School,Montgomery,"$7,674,076.16",
+123463507,Eastern Center for Arts & Technology,Montgomery,"$7,299,943.42",
+123465507,North Montco Tech Career Center,Montgomery,"$10,725,548.00",
+123469007,Western Montgomery CTC,Montgomery,"$5,100,241.50",
+120481107,Bethlehem AVTS,Northampton,"$10,214,680.49",
+120483007,Career Institute of Technology,Northampton,"$8,511,274.22",
+116495207,Northumberland County CTC,Northumberland,"$1,361,899.00",
+126514007,Philadelphia AVTS,Philadelphia,"$25,263,974.00",
+129546907,Schuylkill Technology Centers,Schuylkill,"$7,553,301.01",
+108567807,Somerset County Technology Center,Somerset,"$3,873,425.62",
+119584707,Susquehanna County CTC,Susquehanna,"$3,617,886.90",
+116606707,SUN Area Technical Institute,Union,"$5,907,534.71",
+106619107,Venango Technology Center,Venango,"$5,349,408.54",
+101634207,Mon Valley CTC,Washington,"$2,525,304.35",
+101638907,Western Area CTC,Washington,"$3,775,997.15",
+107651207,Central Westmoreland CTC,Westmoreland,"$6,708,592.00",
+107652207,Eastern Westmoreland CTC,Westmoreland,"$2,997,750.00",
+107656407,Northern Westmoreland CTC,Westmoreland,"$2,699,943.46",
+112679107,York Co School of Technology,York,"$21,849,636.94",
+197010542,Gettysburg Montessori Charter School,Adams,"$2,928,679.00",
+141019741,Vida Charter School,Adams,"$3,453,544.00",
+102020001,City CHS,Allegheny,"$11,271,078.00",
+199025446,Environmental Charter School at Frick Park,Allegheny,"$12,952,896.00",
+102023030,Manchester Academic CS,Allegheny,"$8,966,412.00",
+102023217,Passport Academy CS,Allegheny,"$3,218,531.00",
+103022481,Penn Hills Charter School of Entrepreneurship,Allegheny,"$6,387,900.00",
+115220003,Pennsylvania Distance Learning CS,Allegheny,"$12,982,728.00",
+160028259,Propel CS-Braddock Hills,Allegheny,"$15,698,200.00",
+103020005,Propel CS-East,Allegheny,"$6,181,228.00",
+103024952,Propel CS-Hazelwood,Allegheny,"$5,388,136.00",
+103020002,Propel CS-Homestead,Allegheny,"$10,909,429.00",
+103020003,Propel CS-McKeesport,Allegheny,"$4,813,051.00",
+103020004,Propel CS-Montour,Allegheny,"$11,083,692.00",
+103028192,Propel CS-Northside,Allegheny,"$8,148,684.00",
+103024162,Propel CS-Pitcairn,Allegheny,"$5,405,600.00",
+102027560,Provident CS,Allegheny,"$6,070,897.33",
+103023410,Spectrum CS,Allegheny,"$1,195,738.00",
+102020003,The New Academy CS,Allegheny,"$3,466,270.00",
+103023090,Urban Academy of Greater Pittsburgh CS,Allegheny,"$6,062,690.00",
+102023080,Urban Pathways 6-12 CS,Allegheny,"$6,685,988.00",
+103028246,Urban Pathways K-5 College Charter School,Allegheny,"$5,376,134.00",
+103028425,Westinghouse Arts Academy CS,Allegheny,"$2,675,391.74",
+103020368,Young Scholars of McKeesport Charter School,Allegheny,"$3,051,900.00",
+103025206,Young Scholars of Western Pennsylvania CS,Allegheny,"$5,993,488.00",
+127046517,Baden Academy CS,Beaver,"$8,709,047.22",
+127040002,Lincoln Park Performing Arts CS,Beaver,"$11,736,700.17",
+127043430,Pennsylvania Cyber CS,Beaver,"$163,983,924.29",
+108057079,HOPE for Hyndman CS,Bedford,"$2,175,993.00",
+114060392,I-LEAD Charter School,Berks,"$4,888,969.00",
+108070001,Central PA Digital Learning Foundation CS,Blair,"$2,531,642.00",
+122093460,Bucks County Montessori CS,Bucks,"$2,836,205.00",
+122090001,Center for Student Learning CS at Pennsbury,Bucks,"$3,026,937.00",
+122093140,School Lane CS,Bucks,"$19,092,414.00",
+110143060,Centre Learning Community CS,Centre,"$1,571,652.00",
+110143120,Nittany Valley CS,Centre,"$821,849.00",
+110143310,Wonderland CS,Centre,,
+110140001,Young Scholars of Central PA CS,Centre,"$6,707,391.00",
+124150002,21st Century Cyber CS,Chester,"$19,116,853.80",
+125230001,Achievement House CS,Chester,"$10,120,432.76",
+124150003,Avon Grove CS,Chester,"$26,888,843.00",
+124152880,Chester Co Family Academy CS,Chester,"$1,462,489.00",
+124153320,Collegium CS,Chester,"$48,881,050.00",
+124152637,Insight PA Cyber CS,Chester,"$25,495,186.22",
+124150004,Pennsylvania Leadership Charter School,Chester,"$46,136,197.00",
+124153350,Renaissance Academy CS,Chester,"$17,420,183.00",
+101833400,Sugar Valley Rural CS,Clinton,"$8,664,440.64",
+116493130,Susq-Cyber CS,Columbia,,
+115227010,Capital Area School for the Arts Charter School,Dauphin,"$2,908,763.00",
+115220002,Commonwealth Charter Academy CS,Dauphin,"$138,594,861.00",
+115220001,Infinity CS,Dauphin,"$2,878,546.00",
+115222343,Premier Arts and Science Charter School,Dauphin,"$3,529,622.50",
+115227871,Reach Cyber CS,Dauphin,"$41,910,021.00",
+115223050,Sylvan Heights Science CS,Dauphin,"$2,898,897.00",
+125236827,Chester Charter Scholars Academy CS,Delaware,"$9,060,015.24",
+125232950,Chester Community CS,Delaware,"$61,767,438.18",
+125233517,Vision Academy Charter School,Delaware,"$4,437,646.00",
+125230002,Widener Partnership CS,Delaware,"$5,939,111.02",
+105257512,Erie Rise Leadership Academy Charter School,Erie,"$5,327,757.00",
+105250004,Montessori Regional CS,Erie,"$5,803,879.00",
+105250001,Perseus House CS of Excellence,Erie,"$7,498,793.00",
+105252920,Robert Benjamin Wiley Community CS,Erie,"$5,638,610.03",
+111440001,New Day Charter School,Huntingdon,"$2,793,198.93",
+111315438,Stone Valley Community CS,Huntingdon,"$1,064,263.74",
+119350001,Fell CS,Lackawanna,"$2,161,573.00",
+119355028,Howard Gardner Multiple Intelligence CS,Lackawanna,"$3,431,546.88",
+113362940,La Academia Partnership Charter School,Lancaster,"$3,932,655.17",
+121395927,Arts Academy CS,Lehigh,"$5,121,556.91",
+121399898,Arts Academy Elementary Charter School,Lehigh,"$5,423,846.36",
+121394017,Circle of Seasons Charter School,Lehigh,"$6,093,778.59",
+121398065,Executive Education Academy Charter School,Lehigh,"$16,235,136.00",
+121395526,Innovative Arts Academy CS,Lehigh,"$7,233,664.72",
+175390169,Lincoln Leadership Academy Charter School,Lehigh,"$9,693,334.08",
+121393330,Roberto Clemente CS,Lehigh,"$7,026,158.00",
+188392660,Seven Generations Charter School,Lehigh,"$4,294,264.20",
+118400001,Bear Creek Community CS,Luzerne,"$6,649,692.55",
+104432830,Keystone Education Center CS,Mercer,"$3,808,288.02",
+120450003,Evergreen Community CS,Monroe,"$1,752,131.00",
+126510020,Agora Cyber CS,Montgomery,"$92,576,451.00",
+123460001,Pennsylvania Virtual CS,Montgomery,"$30,709,994.08",
+123463370,Souderton CS Collaborative,Montgomery,"$3,930,382.00",
+120486892,Easton Arts Academy Elementary CS,Northampton,"$5,505,638.00",
+120480002,Lehigh Valley Academy Regional CS,Northampton,"$24,414,323.00",
+120483170,Lehigh Valley Charter High School for the Arts,Northampton,"$9,071,355.93",
+139481451,Lehigh Valley Dual Language Charter School,Northampton,"$5,464,651.23",
+126514368,ACT Academy Cyber CS,Philadelphia,,
+126510015,Ad Prima CS,Philadelphia,"$8,785,473.00",
+126512990,Alliance for Progress CS,Philadelphia,"$6,204,680.00",
+104510394,Antonia Pantoja Community Charter School,Philadelphia,"$11,265,037.00",
+181519176,ASPIRA Bilingual Cyber Charter School,Philadelphia,"$8,047,841.00",
+126510010,Belmont Charter School,Philadelphia,"$12,992,243.48",
+185515523,Boys Latin of Philadelphia CS,Philadelphia,"$11,236,550.62",
+126513190,Charter High School for Architecture and Design,Philadelphia,"$7,610,223.00",
+126513160,Christopher Columbus CS,Philadelphia,"$10,927,004.29",
+126512840,Community Academy of Philadelphia CS,Philadelphia,"$18,388,121.76",
+126516724,Deep Roots Charter School,Philadelphia,"$3,948,084.00",
+126510011,Discovery Charter School,Philadelphia,"$7,934,998.00",
+177518712,Eastern University Academy Charter School,Philadelphia,,
+126513440,Esperanza Academy Charter School,Philadelphia,"$20,669,226.00",
+126511563,Esperanza Cyber CS,Philadelphia,"$5,334,908.00",
+126513100,Eugenio Maria De Hostos CS,Philadelphia,"$8,361,886.00",
+100510000,First Philadelphia Preparatory Charter School,Philadelphia,"$24,936,368.00",
+126510021,Folk Arts-Cultural Treasures CS,Philadelphia,"$6,701,425.00",
+147513703,Franklin Towne Charter Elementary School,Philadelphia,"$11,891,523.00",
+126513450,Franklin Towne CHS,Philadelphia,"$15,082,693.00",
+126518547,Frederick Douglass Mastery Charter School,Philadelphia,"$9,889,120.00",
+126513270,Freire CS,Philadelphia,"$13,978,875.00",
+126513380,Global Leadership Academy CS,Philadelphia,"$8,776,572.00",
+126518004,Global Leadership Academy CS Southwest at Huey,Philadelphia,"$7,768,978.00",
+126510005,Green Woods CS,Philadelphia,"$7,977,387.00",
+126512850,Harambee Institute of Science and Technology CS,Philadelphia,"$6,050,007.00",
+126512980,Imhotep Institute CHS,Philadelphia,"$7,533,010.00",
+126513510,Independence CS,Philadelphia,"$11,077,899.00",
+126512039,Independence CS West,Philadelphia,"$7,051,444.00",
+126513070,Inquiry Charter School,Philadelphia,"$4,101,255.50",
+133513315,John B Stetson Charter School,Philadelphia,"$13,843,898.00",
+182514568,Keystone Academy Charter School,Philadelphia,"$9,288,016.00",
+126510017,Khepera CS,Philadelphia,,
+126514864,KIPP DuBois Charter School,Philadelphia,"$7,814,127.00",
+126514059,KIPP North Philadelphia CS,Philadelphia,"$2,565,985.00",
+126510013,KIPP Philadelphia Charter School,Philadelphia,"$12,445,500.00",
+126515492,KIPP West Philadelphia CS,Philadelphia,"$4,010,490.00",
+172510793,KIPP West Philadelphia Preparatory Charter School,Philadelphia,"$4,849,981.00",
+126513110,Laboratory CS,Philadelphia,"$6,323,298.00",
+126519476,Lindley Academy CS at Birney,Philadelphia,"$9,801,335.00",
+126513480,Mariana Bracetti Academy CS,Philadelphia,"$16,165,870.00",
+126510014,Maritime Academy Charter School,Philadelphia,"$9,866,034.21",
+126513150,MAST Community CS,Philadelphia,"$19,107,061.00",
+126513117,MaST Community CS II,Philadelphia,"$8,119,618.00",
+126510002,Mastery CHS-Lenfest Campus,Philadelphia,"$8,520,735.00",
+126518118,Mastery CS John Wister Elementary,Philadelphia,"$7,005,464.00",
+126519644,Mastery CS-Cleveland Elementary,Philadelphia,"$10,067,734.00",
+126511748,Mastery CS-Clymer Elementary,Philadelphia,"$8,007,806.00",
+126518795,Mastery CS-Francis D. Pastorius Elementary,Philadelphia,"$8,651,923.00",
+126513734,Mastery CS-Gratz Campus,Philadelphia,"$21,629,871.00",
+126513290,Mastery CS-Hardy Williams,Philadelphia,"$16,485,745.00",
+126516457,Mastery CS-Harrity Campus,Philadelphia,"$11,248,779.00",
+126519433,Mastery CS-Mann Campus,Philadelphia,"$7,106,125.00",
+151514721,Mastery CS-Pickett Campus,Philadelphia,"$12,532,071.00",
+126510022,Mastery CS-Shoemaker Campus,Philadelphia,"$11,225,054.00",
+126517286,Mastery CS-Smedley Campus,Philadelphia,"$10,734,836.00",
+126510023,Mastery CS-Thomas Campus,Philadelphia,"$17,427,118.00",
+126517643,Mastery Prep Elementary CS,Philadelphia,"$3,491,560.00",
+126513230,Math Civics and Sciences CS,Philadelphia,"$10,302,602.00",
+126519392,Memphis Street Academy CS @ JP Jones,Philadelphia,"$10,561,230.00",
+126513000,Multicultural Academy CS,Philadelphia,"$3,065,392.00",
+126513420,New Foundations CS,Philadelphia,"$17,849,389.00",
+126510019,Northwood Academy CS,Philadelphia,"$9,965,371.66",
+126513452,Olney Charter High School,Philadelphia,"$28,218,521.00",
+173515368,Pan American Academy CS,Philadelphia,"$11,005,126.00",
+126510004,People for People CS,Philadelphia,"$7,889,294.00",
+126513280,Philadelphia Academy CS,Philadelphia,"$16,710,966.00",
+126510009,Philadelphia Electrical & Tech CHS,Philadelphia,"$8,138,596.71",
+126510016,Philadelphia Montessori CS,Philadelphia,"$2,717,753.00",
+126513400,Philadelphia Performing Arts CS,Philadelphia,"$32,407,471.00",
+126512960,Preparatory CS of Mathematics Science Tech and Careers,Philadelphia,"$7,218,618.08",
+126510008,Richard Allen Preparatory CS,Philadelphia,"$5,606,973.62",
+126510001,Russell Byers CS,Philadelphia,"$9,473,553.00",
+114514135,Sankofa Freedom Academy Charter School,Philadelphia,"$8,470,876.00",
+108515107,Southwest Leadership Academy CS,Philadelphia,"$8,436,428.00",
+192518422,Tacony Academy Charter School,Philadelphia,"$13,965,619.00",
+126511530,TECH Freire CS,Philadelphia,"$6,531,507.00",
+126515691,The Philadelphia CS for Arts and Sciences at HR Edmunds,Philadelphia,"$15,012,386.00",
+126512674,Universal Alcorn CS,Philadelphia,"$7,130,258.00",
+126519434,Universal Audenried Charter School,Philadelphia,"$7,709,076.00",
+168513758,Universal Bluford Charter School,Philadelphia,"$7,286,598.00",
+126517442,Universal Creighton Charter School,Philadelphia,"$9,630,245.00",
+103519376,Universal Daroff Charter School,Philadelphia,"$9,723,543.00",
+126513210,Universal Institute CS,Philadelphia,"$8,348,183.00",
+126513415,Universal Vare Charter School,Philadelphia,"$4,669,285.00",
+126513020,West Oak Lane CS,Philadelphia,"$12,606,410.00",
+126510006,West Phila. Achievement CES,Philadelphia,"$5,180,982.00",
+126510007,Wissahickon CS,Philadelphia,"$14,747,228.00",
+126513250,Young Scholars CS,Philadelphia,"$4,896,627.00",
+126512870,Youth Build Phila CS,Philadelphia,"$4,507,140.00",
+129544907,Gillingham Charter School,Schuylkill,"$3,583,885.00",
+105620001,Tidioute Community CS,Warren,"$4,593,051.00",
+107653040,Dr Robert Ketterer CS Inc,Westmoreland,"$4,746,439.00",
+112673300,Crispus Attucks CS,York,"$1,393,683.00",
+112673500,Lincoln CS,York,"$9,065,879.37",
+189670676,York Academy Regional Charter School,York,"$10,592,965.31",
+113363705,Lancaster County Academy,Lancaster,,
+112679205,York Adams Academy,York,,
+,,,,
+,School District,,$0.00,$0.00
+,AVTS / CTC,,$0.00,$0.00
+,Charter School,,$0.00,$0.00
+,Special Program Jointure,,$0.00,$0.00
+,Total,,$0.00,$0.00

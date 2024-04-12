@@ -32,6 +32,36 @@ data_merge %>%
        title = "Median State Revenue per WADM From 2014 - 2020") +
   theme_minimal()
 
+data_merge %>% 
+  as.data.frame() %>% 
+  select(year, total_local_rev, wadm, code) %>% 
+  group_by(year, code) %>% 
+  summarise(spending = median(total_local_rev) / median(wadm)) %>%
+  ggplot(aes(x = year, y = spending, color = code)) + 
+  geom_line(linewidth = 2) +
+  geom_point(size = 3) +
+  guides(color = guide_legend(title = "Urban Code")) +
+  scale_y_continuous(labels = scales::dollar_format(prefix="$")) +
+  labs(x = "Year",
+       y = "State Revenue Per WADM",
+       title = "Median Local Revenue per WADM From 2014 - 2020") +
+  theme_minimal()
+
+data_merge %>%
+  as.data.frame() %>%
+  group_by(code, year) %>%
+  select(code, year, eq_mills) %>%
+  drop_na(eq_mills) %>%
+  summarise("median" = median(eq_mills)) %>%
+  ggplot(aes(x = year, y = median, color = code)) +
+  geom_line(linewidth = 2) +
+  geom_point(size = 3) +
+  theme_minimal() +
+  labs(x = "Year",
+       y = "Median Property Tax Rate (in Mills)",
+       title = "Property Tax Rate From 2014 - 2020") +
+  guides(color = guide_legend(title = "Urban Code"))
+
 attendance_2022 %>%
   merge(., shapiro_proposed_bef_funding_2425, by = "AUN") %>%
   merge(., urban_school_codes, by = "AUN") %>%

@@ -64,6 +64,33 @@ annual_state_rev <- rbind(read_csv("Data/State Revenue/state_rev_1415.csv") %>%
          total_state_rev = parse_number(total_state_rev)) %>%
   filter(grepl("SD", school_district))
 
+### Loading in local revenue data
+annual_local_rev <- rbind(read_csv("Data/Local Revenue/local_rev_2021.csv", locale = locale(encoding = "latin1")) %>%
+                            select(AUN, school_district, total_local_rev, real_estate_revenue) %>%
+                            mutate(year = 2014),
+                          read_csv("Data/Local Revenue/local_rev_1920.csv", locale = locale(encoding = "latin1")) %>%
+                            select(AUN, school_district, total_local_rev, real_estate_revenue) %>%
+                            mutate(year = 2015),
+                          read_csv("Data/Local Revenue/local_rev_1819.csv", locale = locale(encoding = "latin1")) %>%
+                            select(AUN, school_district, total_local_rev, real_estate_revenue) %>%
+                            mutate(year = 2016),
+                          read_csv("Data/Local Revenue/local_rev_1718.csv", locale = locale(encoding = "latin1")) %>%
+                            select(AUN, school_district, total_local_rev, real_estate_revenue) %>%
+                            mutate(year = 2017),
+                          read_csv("Data/Local Revenue/local_rev_1617.csv", locale = locale(encoding = "latin1")) %>%
+                            select(AUN, school_district, total_local_rev, real_estate_revenue) %>%
+                            mutate(year = 2018),
+                          read_csv("Data/Local Revenue/local_rev_1516.csv", locale = locale(encoding = "latin1")) %>%
+                            select(AUN, school_district, total_local_rev, real_estate_revenue) %>%
+                            mutate(year = 2019),
+                          read_csv("Data/Local Revenue/local_rev_1415.csv", locale = locale(encoding = "latin1")) %>%
+                            select(AUN, school_district, total_local_rev, real_estate_revenue) %>%
+                            mutate(year = 2020)) %>%
+  mutate(total_local_rev = parse_number(total_local_rev),
+         real_estate_revenue = parse_number(real_estate_revenue)) %>%
+  filter(grepl("SD", school_district)) %>%
+  select(-school_district)
+
 ### Loading attendance data
 annual_attendance <- rbind(read_excel("Data/Attendance Data/Selected Data 2014-15.xlsx") %>%
                              mutate(year = 2014),
@@ -122,6 +149,7 @@ data_merge <- annual_state_rev %>%
   merge(., urban_school_codes, by = "AUN") %>%
   merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district") %>%
   merge(., nces_ccd, by = c("AUN", "year")) %>%
+  merge(., annual_local_rev, by = c("AUN", "year")) %>%
   filter(school_district.y != "BRYN ATHYN SD") %>%
   st_as_sf()
 

@@ -20,7 +20,7 @@ nbw_school_districts <- nb2listw(nb_school_districts, style = "W")
 moran.test(investment_per_ws$difference, nbw_school_districts)
 
 school_district_ids <- order(investment_per_ws$AUN)
-investment_per_ws_localmoran <- localmoran(investment_per_ws$aie_per_wadm, nbw_school_districts)
+investment_per_ws_localmoran <- localmoran(investment_per_ws$difference, nbw_school_districts)
 
 printCoefmat(data.frame(investment_per_ws_localmoran[school_district_ids,],
                         row.names = investment_per_ws$AUN[school_district_ids],
@@ -30,12 +30,13 @@ printCoefmat(data.frame(investment_per_ws_localmoran[school_district_ids,],
   st_as_sf() %>%
   ggplot() +
   geom_sf(aes(fill = Ii)) +
-  scale_fill_steps()
+  scale_fill_stepsn(colors = c("blue", "green"))
 
 ggplot(investment_per_ws) +
   geom_sf(aes(fill = difference)) +
   guides(fill = guide_legend(title = " ")) +
-  labs(title = "Adequacy Investment per Weighted Student") +
+  labs(title = "% Increase in per Student Expenditures") +
+  scale_fill_continuous(labels = scales::label_percent()) +
   theme_void() 
 
 ggplot(investment_per_ws %>% filter(school_district != "BRYN ATHYN SD"),
