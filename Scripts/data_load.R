@@ -106,6 +106,9 @@ data_merge <- annual_state_rev %>%
   merge(., shapiro_proposed_bef_funding_2425 %>% select(-school_district, -county), by = "AUN") %>%
   merge(., annual_attendance %>% select(-school_district, -county) %>% drop_na(wadm), by = c("AUN", "year")) %>%
   merge(., urban_school_codes, by = "AUN") %>%
-  merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district")
+  merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district") %>%
+  filter(school_district.y != "BRYN ATHYN SD") %>%
+  st_as_sf()
+
 
 
