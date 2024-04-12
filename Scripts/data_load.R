@@ -110,5 +110,16 @@ data_merge <- annual_state_rev %>%
   filter(school_district.y != "BRYN ATHYN SD") %>%
   st_as_sf()
 
+data1 <- data_merge %>%
+  select(school_district.x,
+         year,
+         code,
+         weighted_students,
+         adequacy_investment) %>%
+  mutate(invest = adequacy_investment / weighted_students) %>%
+  rename(district = "school_district.x") %>%
+  filter(year == 2020) %>%
+  st_as_sf()
 
+st_write(data1, "Data//Shapefiles for ArcGIS//data_merge_sf//data_merge_sf12.shp", append = TRUE)
 
