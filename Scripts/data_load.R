@@ -1,6 +1,9 @@
 library(tidyverse)
 library(tidycensus)
 library(sf)
+library(readxl)
+### educationdata is an NCES CCD API
+library(educationdata)
 
 ### Loading in 2024-25 budget proposal data
 shapiro_adequacy_investment_2425 <- read_csv("Data//adequacy_investment.csv") %>%
@@ -61,6 +64,22 @@ annual_state_rev <- rbind(read_csv("Data/State Revenue/state_rev_1415.csv") %>%
          total_state_rev = parse_number(total_state_rev)) %>%
   filter(grepl("SD", school_district))
 
+annual_attendance <- rbind(read_excel("Data/Attendance Data/Selected Data 2014-15.xlsx") %>%
+                             mutate(year = 2014),
+                           read_excel("Data/Attendance Data/Selected Data 2015-16.xlsx") %>%
+                             mutate(year = 2015),
+                           read_excel("Data/Attendance Data/Selected Data 2016-17.xlsx") %>%
+                             mutate(year = 2016),
+                           read_excel("Data/Attendance Data/Selected Data 2017-18.xlsx") %>%
+                             mutate(year = 2017),
+                           read_excel("Data/Attendance Data/Selected Data 2018-19.xlsx") %>%
+                             mutate(year = 2018),
+                           read_excel("Data/Attendance Data/Selected Data 2019-20.xlsx") %>%
+                             mutate(year = 2019),
+                           read_excel("Data/Attendance Data/Selected Data 2020-21.xlsx") %>%
+                             mutate(year = 2020)) %>%
+  drop_na(school_district)
+
 urban_school_codes <- read_csv("Data//urban_codes.csv") %>%
   rename(school_district = "LEA NAME") %>%
   mutate("code" = ifelse(grepl("City", `Urban-centric Locale [District]`), "City", 
@@ -68,6 +87,8 @@ urban_school_codes <- read_csv("Data//urban_codes.csv") %>%
                   ifelse(grepl("Town", `Urban-centric Locale [District]`), "Town",
                   ifelse(grepl("Rural", `Urban-centric Locale [District]`), "Rural", "NULL")))))
   
+attendance_2022 <- read_excel("Data//Attendance Data//Finances SelectedData 2021-2022.xlsx") %>%
+  drop_na(school_district)
 
 annual_state_rev %>%
   group_by(year) %>%
@@ -81,12 +102,10 @@ annual_state_rev %>%
   geom_line()
 
 data_merge <- annual_state_rev %>%
-  merge(., shapiro_adequacy_investment_2425 %>% select(-school_district), by = "AUN") %>%
-  merge(., shapiro_proposed_bef_funding_2425 %>% select(-school_district), by = "AUN") %>%
+  merge(., shapiro_adequacy_investment_2425 %>% select(-school_district, -county), by = "AUN") %>%
+  merge(., shapiro_proposed_bef_funding_2425 %>% select(-school_district, -county), by = "AUN") %>%
+  merge(., annual_attendance %>% select(-school_district, -county) %>% drop_na(wadm), by = c("AUN", "year")) %>%
   merge(., urban_school_codes, by = "AUN") %>%
-  select(AUN, school_district.y, county.x, total_state_rev, bef, year, weighted_students,
-         adequacy_target, adequacy_gap, state_share_ag, total_proposed_bef, base_bef_2324,
-         proposed_formula_dist, adequacy_investment, est_bef, code) %>%
   merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district")
 
 
