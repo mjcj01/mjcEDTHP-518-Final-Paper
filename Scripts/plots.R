@@ -1,5 +1,6 @@
 library(tidyverse)
 library(gt)
+library(sf)
 
 data_merge %>%
   as.data.frame() %>%
@@ -28,7 +29,8 @@ attendance_2022 %>%
                                       digits = 2), "%", sep = "")) %>%
   select(code, `Proposed BEF per WADM`, `2023-24 BEF per WADM`, `% Difference`) %>%
   rename(`Urban Code` = "code") %>%
-  gt()
+  gt() %>%
+  gtsave("Figures and Tables//proposed_changes.rtf")
 
 ggplot(data = data_merge %>% filter(year == 2019)) +
   geom_sf(aes(fill = eq_mills)) +

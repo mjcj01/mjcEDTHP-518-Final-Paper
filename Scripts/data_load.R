@@ -64,6 +64,7 @@ annual_state_rev <- rbind(read_csv("Data/State Revenue/state_rev_1415.csv") %>%
          total_state_rev = parse_number(total_state_rev)) %>%
   filter(grepl("SD", school_district))
 
+### Loading attendance data
 annual_attendance <- rbind(read_excel("Data/Attendance Data/Selected Data 2014-15.xlsx") %>%
                              mutate(year = 2014),
                            read_excel("Data/Attendance Data/Selected Data 2015-16.xlsx") %>%
@@ -80,6 +81,7 @@ annual_attendance <- rbind(read_excel("Data/Attendance Data/Selected Data 2014-1
                              mutate(year = 2020)) %>%
   drop_na(school_district)
 
+### Loading urban school codes
 urban_school_codes <- read_csv("Data//urban_codes.csv") %>%
   rename(school_district = "LEA NAME") %>%
   mutate("code" = ifelse(grepl("City", `Urban-centric Locale [District]`), "City", 
@@ -90,36 +92,24 @@ urban_school_codes <- read_csv("Data//urban_codes.csv") %>%
 attendance_2022 <- read_excel("Data//Attendance Data//Finances SelectedData 2021-2022.xlsx") %>%
   drop_na(school_district)
 
-annual_state_rev %>%
-  group_by(year) %>%
-  drop_na(bef) %>%
-  summarise(med = sum(bef)) %>%
-  merge(.,
-        data_frame("year" = c(2014:2021),
-                   "rate" = c(1.6, 0.1, 1.3, 2.1, 2.4, 1.8, 1.2, 4.7)),
-        by = "year") %>%
-  ggplot(data = ., aes(x = year, y = med)) + 
-  geom_line()
+### Crosswalk between AUN and NCES IDs provided by Matthew Kelly
+nces_aun_crosswalk <- read_csv("Data//nces_aun_crosswalk.csv")
 
+### Pulling NCES CCD enrollment data by race on all Pennsylvania school districts
+nces_ccd <- get_education_data(level = "school-districts",
+                               source = "ccd",
+                               topic = "enrollment",
+                               subtopic = "race",
+                               filters = list(year = c(2014:2020),
+                                              fips = 42))
+
+### Combining all data by AUN codes
 data_merge <- annual_state_rev %>%
   merge(., shapiro_adequacy_investment_2425 %>% select(-school_district, -county), by = "AUN") %>%
   merge(., shapiro_proposed_bef_funding_2425 %>% select(-school_district, -county), by = "AUN") %>%
   merge(., annual_attendance %>% select(-school_district, -county) %>% drop_na(wadm), by = c("AUN", "year")) %>%
   merge(., urban_school_codes, by = "AUN") %>%
   merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district") %>%
+  merge(., nces_aun_crosswalk %>% select(AUN, nces_id), by = "AUN") %>%
   filter(school_district.y != "BRYN ATHYN SD") %>%
   st_as_sf()
-
-data1 <- data_merge %>%
-  select(school_district.x,
-         year,
-         code,
-         weighted_students,
-         adequacy_investment) %>%
-  mutate(invest = adequacy_investment / weighted_students) %>%
-  rename(district = "school_district.x") %>%
-  filter(year == 2020) %>%
-  st_as_sf()
-
-st_write(data1, "Data//Shapefiles for ArcGIS//data_merge_sf//data_merge_sf12.shp", append = TRUE)
-
