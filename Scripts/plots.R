@@ -14,7 +14,23 @@ data_merge %>%
   geom_point(size = 3) +
   geom_line(linewidth = 2) +
   theme_minimal() +
-  labs(title = "Median AIE per WADM From 2014 - 2020")
+  labs(title = "Median AIE per WADM From 2014 - 2020") +
+  scale_y_continuous(labels = scales::dollar_format(prefix="$"))
+
+data_merge %>% 
+  as.data.frame() %>% 
+  select(year, total_state_rev, wadm, code) %>% 
+  group_by(year, code) %>% 
+  summarise(spending = median(total_state_rev) / median(wadm)) %>%
+  ggplot(aes(x = year, y = spending, color = code)) + 
+  geom_line(linewidth = 2) +
+  geom_point(size = 3) +
+  guides(color = guide_legend(title = "Urban Code")) +
+  scale_y_continuous(labels = scales::dollar_format(prefix="$")) +
+  labs(x = "Year",
+       y = "State Revenue Per WADM",
+       title = "Median State Revenue per WADM From 2014 - 2020") +
+  theme_minimal()
 
 attendance_2022 %>%
   merge(., shapiro_proposed_bef_funding_2425, by = "AUN") %>%

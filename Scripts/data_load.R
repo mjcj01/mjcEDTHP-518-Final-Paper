@@ -101,7 +101,18 @@ nces_ccd <- get_education_data(level = "school-districts",
                                topic = "enrollment",
                                subtopic = "race",
                                filters = list(year = c(2014:2020),
-                                              fips = 42))
+                                              fips = 42,
+                                              grade = 99)) %>%
+  merge(.,
+        data.frame("race_cat" = c("White", "Black", "Hispanic", "Asian", "American Indian or Alaskan Native",
+                                  "Native Hawaiian or other Pacific Islander", "Two or more races",
+                                  "Nonresident Alien", "Unknown", "Other", "Total"),
+                   "race" = c(1:9, 20, 99)),
+        by = "race") %>% 
+  filter(grade == 99) %>%
+  merge(.,
+        nces_aun_crosswalk,
+        by.x = c("leaid"), by.y = c("nces_id"))
 
 ### Combining all data by AUN codes
 data_merge <- annual_state_rev %>%
@@ -110,6 +121,7 @@ data_merge <- annual_state_rev %>%
   merge(., annual_attendance %>% select(-school_district, -county) %>% drop_na(wadm), by = c("AUN", "year")) %>%
   merge(., urban_school_codes, by = "AUN") %>%
   merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district") %>%
-  merge(., nces_aun_crosswalk %>% select(AUN, nces_id), by = "AUN") %>%
+  merge(., nces_ccd, by = c("AUN", "year")) %>%
   filter(school_district.y != "BRYN ATHYN SD") %>%
   st_as_sf()
+
