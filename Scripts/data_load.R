@@ -141,15 +141,17 @@ nces_ccd <- get_education_data(level = "school-districts",
         nces_aun_crosswalk,
         by.x = c("leaid"), by.y = c("nces_id"))
 
+community_data <- read_csv("Data//proposed_income_data.csv") %>%
+  drop_na(AUN)
+
 ### Combining all data by AUN codes
 data_merge <- annual_state_rev %>%
   merge(., shapiro_adequacy_investment_2425 %>% select(-school_district, -county), by = "AUN") %>%
   merge(., shapiro_proposed_bef_funding_2425 %>% select(-school_district, -county), by = "AUN") %>%
   merge(., annual_attendance %>% select(-school_district, -county) %>% drop_na(wadm), by = c("AUN", "year")) %>%
   merge(., urban_school_codes, by = "AUN") %>%
-  merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district") %>%
+  #merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district") %>%
   merge(., nces_ccd, by = c("AUN", "year")) %>%
   merge(., annual_local_rev, by = c("AUN", "year")) %>%
-  filter(school_district.y != "BRYN ATHYN SD") %>%
-  st_as_sf()
-
+  merge(., community_data, by = "AUN") %>%
+  filter(school_district.y != "BRYN ATHYN SD")

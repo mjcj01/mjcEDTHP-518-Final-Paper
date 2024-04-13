@@ -43,7 +43,7 @@ data_merge %>%
   guides(color = guide_legend(title = "Urban Code")) +
   scale_y_continuous(labels = scales::dollar_format(prefix="$")) +
   labs(x = "Year",
-       y = "State Revenue Per WADM",
+       y = "Local Revenue Per WADM",
        title = "Median Local Revenue per WADM From 2014 - 2020") +
   theme_minimal()
 
@@ -75,8 +75,7 @@ attendance_2022 %>%
                                       digits = 2), "%", sep = "")) %>%
   select(code, `Proposed BEF per WADM`, `2023-24 BEF per WADM`, `% Difference`) %>%
   rename(`Urban Code` = "code") %>%
-  gt() %>%
-  gtsave("Figures and Tables//proposed_changes.rtf")
+  gt()
 
 ggplot(data = data_merge %>% filter(year == 2019)) +
   geom_sf(aes(fill = eq_mills)) +
@@ -93,3 +92,19 @@ data_merge %>%
   st_as_sf() %>%
   ggplot() +
   geom_sf(aes(fill = difference))
+
+data_merge %>%
+  filter(year == 2020) %>%
+  mutate(local_per_wadm = total_local_rev / wadm) %>%
+  drop_na(eq_mills) %>%
+  ggplot(aes(x = eq_mills, y = local_per_wadm, color = code)) +
+  geom_vline(xintercept = 19.15629, linewidth = 1) +
+  geom_hline(yintercept = 7562.362, linewidth = 1) +
+  geom_point() +
+  theme_minimal() +
+  labs(title = "Local Revenue per WADM in 2020 - 21",
+       x = "Equalized Property Tax Rate (in Mills)",
+       y = "Local Revenue per WADM") +
+  guides(color = guide_legend(title = "Urban Code"))
+
+         
