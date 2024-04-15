@@ -22,18 +22,10 @@ shapiro_proposed_bef_funding_2425 <- read_csv("Data//proposed_bef_funding.csv") 
          school_district = gsub("CHELTENHAM TOWNSHIP ", "CHELTENHAM ", school_district),
          school_district = gsub("OWEN J", "OWEN J.", school_district))
 
-### Loading in school district data from the U.S. Census
-school_district_demographics_22 <- get_acs(geography = "school district (unified)",
-                                        state = "PA",
-                                        year = 2022,
-                                        variables = "B01001_001",
-                                        geometry = TRUE,
-                                        output = "wide") %>%
-  filter(NAME != "School District Not Defined, Pennsylvania") %>%
-  mutate(NAME = str_to_upper(gsub("School District, Pennsylvania", "SD", NAME)),
-         NAME = gsub("SOUTH BUTLER COUNTY SD", "KNOCH SD", NAME),
-         NAME = gsub("BLAIRSVILLE-SALTSBURG SD", "RIVER VALLEY SD", NAME)) %>% 
-  rename(school_district = "NAME")
+### Loading in school district data from PASDA
+
+school_districts <- st_read("Data//Pennsylvania School District Shapefile//PaSchoolDistricts2024_03.shp") %>%
+  rename(AUN = "AUN_SCHDIS")
 
 ### Loading in state revenue tables
 annual_state_rev <- rbind(read_csv("Data/State Revenue/state_rev_1415.csv") %>%
@@ -150,7 +142,7 @@ data_merge <- annual_state_rev %>%
   merge(., shapiro_proposed_bef_funding_2425 %>% select(-school_district, -county), by = "AUN") %>%
   merge(., annual_attendance %>% select(-school_district, -county) %>% drop_na(wadm), by = c("AUN", "year")) %>%
   merge(., urban_school_codes, by = "AUN") %>%
-  #merge(., school_district_demographics_22, by.x = "school_district.y", by.y = "school_district") %>%
+  merge(., school_districts, by = "AUN") %>%
   merge(., nces_ccd, by = c("AUN", "year")) %>%
   merge(., annual_local_rev, by = c("AUN", "year")) %>%
   merge(., community_data, by = "AUN") %>%

@@ -50,3 +50,26 @@ ggplot(investment_per_ws, aes(x = investment_per_ws, fill = code)) +
   guides(fill = guide_legend(title = "Urban Code")) +
   theme_minimal() +
   scale_x_continuous(labels = scales::dollar_format(prefix = "$"))
+
+
+
+spending_and_community_df <- data_merge %>%
+  filter(year == 2020) %>%
+  select(AUN, total_local_rev, poverty_0_99, poverty_100_184, local_effort_per_house, median_house_income,
+         aie_per_wadm,exp_per_adm, geometry) %>%
+  unique() %>%
+  mutate(median_house_income = as.numeric(median_house_income)) %>%
+  mutate("spending_and_community" = ifelse(median_house_income >= 63714 & exp_per_adm >= 19176.54, "Wealthier & Higher Spending",
+                                           ifelse(median_house_income >= 63714 & exp_per_adm < 19176.54, "Wealthier & Lower Spending",
+                                                  ifelse(median_house_income < 63714 & exp_per_adm >= 19176.54, "Poorer & Higher Spending",
+                                                         ifelse(median_house_income < 63714 & exp_per_adm < 19176.54, "Poorer & Lower Spending", NA)))),
+         "community_wealth" = ifelse(median_house_income >= 63714, "Wealthier", "Poorer"),
+         "spending" = ifelse(exp_per_adm >= 19176.54, "Higher Spending", "Lower Spending")) %>%
+  drop_na(exp_per_adm) %>%
+  st_as_sf()
+
+nb_spending_and_community <- poly2nb(spending_and_community_df, queen = TRUE)
+nbw_spending_and_community <- nb2listw(nb_spending_and_community, style = "W")
+
+moran.test(spending_and_community_df$median_house_income, nbw_spending_and_community)
+moran.test(spending_and_community_df$exp_per_adm, nbw_spending_and_community)
