@@ -169,15 +169,16 @@ data_merge %>%
   pivot_longer(cols = c(`% White`, `% Black`, `% Hispanic`, `% Asian`),
                names_to = "cat",
                values_to = "enrollment") %>%
-  ggplot(data = ., aes(x = enrollment, y = change)) +
+  ggplot(data = ., aes(x = enrollment, y = eq_mills)) +
   geom_point(size = 1) +
   labs(x = "% of Total Enrollment",
-       y = "Total Proposed BEF per WADM in 2020") +
+       y = "Equalized Property Tax Rate (in Mills)") +
   facet_wrap(vars(cat), nrow = 1) +
   theme_minimal() +
-  theme(panel.border = element_rect(color = "black", fill = "transparent")) +
+  theme(panel.border = element_rect(color = "black", fill = "transparent"),
+        axis.text.x = element_text(size = 5)) +
   scale_y_continuous(labels = scales::dollar_format()) +
-  scale_x_continuous(labels = scales::percent) #+
+  scale_x_continuous(labels = scales::percent) +
   geom_hline(yintercept = 18.55)
   
 
